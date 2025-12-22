@@ -23,3 +23,10 @@ while (y <= 20) {
 // for (z = 2; z <= 20; z += 2) {
 //   console.log(z);
 // }
+
+// Create an array of 5 names and print each name using for...of.
+let name = ["James", "Beatrice", "Pepso", "Lanbert", "Zara"];
+
+for (let names of name) {
+  console.log(names);
+}
